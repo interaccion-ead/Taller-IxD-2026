@@ -50,21 +50,21 @@ const categories = [
       projects: [
         {
           student: "Renata Bocca",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-7/"
+          image: "assets/img/renata.png",
+          gif: "assets/gif/renata.gif",
+          url: "https://renataboccau-ship-it.github.io/U3_Dale-Forma.Renata-Bocca/"
         },
         {
           student: "Mauro Silva",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-8/"
+          image: "assets/img/mauro.png",
+          gif: "assets/gif/mauro.gif",
+          url: "https://maurisv.github.io/U3-Mauro-Silva/"
         },
         {
           student: "Misael Vergara",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-9/"
+          image: "assets/img/misael.png",
+          gif: "assets/gif/misael.gif",
+          url: "https://misver-c.github.io/Dale-Forma---Misael-Vergara-2026/"
         }
       ]
     },
@@ -73,21 +73,21 @@ const categories = [
       projects: [
         {
           student: "Martina Elizondo",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-10/"
+          image: "assets/img/martina.png",
+          gif: "assets/gif/martina.gif",
+          url: "https://martielzs.github.io/Conectando_Martina.Elizondo/"
         },
         {
           student: "Annelys Mendez",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-11/"
+          image: "assets/img/annelys.png",
+          gif: "assets/gif/annelys.gif",
+          url: "https://amfeliz.github.io/U3-Annelys-Mendez-Feliz-Landing/"
         },
         {
           student: "Sofía Segura",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-12/"
+          image: "assets/img/sofia-segura.png",
+          gif: "assets/gif/sofia-segura.gif",
+          url: "https://sofiasegura.github.io/TDI-U3-SOF-ASEGURA-CONECTANDO-REPOSITORIO/"
         }
       ]
     },
@@ -95,16 +95,10 @@ const categories = [
       title: "Catapultazo",
       projects: [
         {
-          student: "Fernanda Díaz",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-13/"
-        },
-        {
           student: "Fernanda Moya",
           image: "assets/img/placeholder.jpg",
           gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-14/"
+          url: "https://fernanda-mlep.github.io/U3 Fernanda-Moya/"
         },
         {
           student: "Julieta Ungerer",
