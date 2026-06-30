@@ -29,7 +29,7 @@ const categories = [
           student: "Fernanda Cortés",
           image: "assets/img/fernanda-cortes.png",
           gif: "assets/gif/fernanda-cortes.gif",
-          url: "https://cortesfernanda.github.io/Cuadriculando FernandaCortes/"
+          url: "https://cortesfernanda.github.io/Cuadriculando_FernandaCortes/"
         },
         {
           student: "Catalina González",
