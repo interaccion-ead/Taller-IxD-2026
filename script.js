@@ -98,13 +98,13 @@ const categories = [
           student: "Fernanda Moya",
           image: "assets/img/placeholder.jpg",
           gif: "assets/gif/placeholder.gif",
-          url: "https://fernanda-mlep.github.io/U3 Fernanda-Moya/"
+          url: "https://fernanda-mlep.github.io/U3_Fernanda-Moya/"
         },
         {
           student: "Julieta Ungerer",
           image: "assets/img/placeholder.jpg",
           gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-15/"
+          url: "https://julietaungererr.github.io/catapultazo-u3/"
         }
       ]
     },
@@ -115,19 +115,19 @@ const categories = [
           student: "Pedro Beltrán",
           image: "assets/img/placeholder.jpg",
           gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-16/"
+          url: "https://pedropablob.github.io/ZONA-INESTABLE-PEDRO-BELTRAN/"
         },
         {
           student: "Vicente Bravo",
           image: "assets/img/placeholder.jpg",
           gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-17/"
+          url: "https://vbravo404.github.io/U3_zonainestable_vicentebravo/"
         },
         {
           student: "Catalina Cabezas",
           image: "assets/img/placeholder.jpg",
           gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-18/"
+          url: "https://kvtari.github.io/Zona-inestable---Catalina-Cabezas/"
         }
       ]
     },
@@ -138,19 +138,19 @@ const categories = [
           student: "Fernanda Costa",
           image: "assets/img/placeholder.jpg",
           gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-19/"
+          url: "https://fernandacostac.github.io/Repositorio-Enlace-Fatal---Fernanda-Costa-C/"
         },
         {
           student: "Constanza Cruz",
           image: "assets/img/placeholder.jpg",
           gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-20/"
+          url: "https://cony16clark.github.io/entrega-u3-constanza/"
         },
         {
           student: "Antonio Diaz",
           image: "assets/img/placeholder.jpg",
           gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-21/"
+          url: "https://antoniodiazgodoy.github.io/U3-AntonioDiaz/"
         }
       ]
     },
@@ -161,13 +161,13 @@ const categories = [
           student: "Fabián Flores",
           image: "assets/img/placeholder.jpg",
           gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-22/"
+          url: "https://fabianfloreses.github.io/Enrutate-U3-TiX---Fabian-Flores/"
         },
         {
           student: "Antonia Gonzalez",
           image: "assets/img/placeholder.jpg",
           gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-23/"
+          url: "https://cirelli20.github.io/U3.Enrutate.A.G/#overlay"
         }
       ]
     }
