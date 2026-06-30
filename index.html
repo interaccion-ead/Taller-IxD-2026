@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diseño de Interacción 2026</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="page">
+    <header class="site-header">
+      <button class="about-button" id="openModal">Sobre los Proyectos</button>
+
+      <section class="hero">
+        <h1>Taller de Diseño de Interacción 2026</h1>
+        <h2>Interfaces Digitales Expresivas</h2>
+      </section>
+
+      <nav class="view-tabs" aria-label="Cambiar vista">
+        <button class="tab-button active" id="gridBtn">Grilla</button>
+        <button class="tab-button" id="listBtn">Lista</button>
+      </nav>
+    </header>
+
+    <section id="projectsContainer" class="projects grid-view"></section>
+  </main>
+
+  <section class="modal-overlay" id="modalOverlay" aria-hidden="true">
+    <article class="modal">
+      <button class="modal-close" id="closeModal" aria-label="Cerrar modal">×</button>
+
+      <h3>Interfaces Digitales Expresivas</h3>
+
+      <p>
+        En este sitio puedes revisar los proyectos desarrollados por los estudiantes del Taller de Diseño de Interacción,
+        correspondientes a la <strong>Unidad 3: Interfaces Digitales Expresivas.</strong>
+      </p>
+
+      <p>
+        Cada proyecto surge a partir de la reinterpretación de un juego de mesa desarrollado durante la unidad anterior,
+        trasladando algunos de sus rasgos esenciales hacia una experiencia digital interactiva.
+      </p>
+
+      <p>
+        Cada sitio se compone de una página principal, donde se introduce el juego y el fundamento del estudiante para
+        reinterpretarlo, y una segunda página denominada <strong>Interfaz Expresiva</strong>, que propone exploraciones
+        interactivas del juego en contexto digital.
+      </p>
+
+      <p>
+        No se trata de una versión digital del juego, sino de una propuesta que reimagina sus dinámicas, relaciones o
+        mecanismos desde las posibilidades expresivas del medio web.
+      </p>
+    </article>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
