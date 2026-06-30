@@ -33,9 +33,9 @@ const categories = [
         },
         {
           student: "Catalina González",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-5/"
+          image: "assets/img/catalina-gonzalez.png",
+          gif: "assets/gif/catalina-gonzalez.gif",
+          url: "https://cataagonz.github.io/Repositorio-cuadriculando/"
         },
         {
           student: "Elizabeth Hormazabal",
