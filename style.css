@@ -257,6 +257,7 @@ h2 {
 .project-card:hover .static-image {
   opacity: 1;
   transform: scale(1.045);
+  
 }
 
 .project-card:hover .gif-image {
