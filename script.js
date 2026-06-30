@@ -39,9 +39,9 @@ const categories = [
         },
         {
           student: "Elizabeth Hormazabal",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-6/"
+          image: "assets/img/elizabeth.png",
+          gif: "assets/gif/elizabeth.gif",
+          url: "https://bethieve.github.io/U3-Cuadriculando-Elizabeth/"
         }
       ]
     },

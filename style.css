@@ -402,8 +402,8 @@ h2 {
 }
 
 .modal p {
-  font-size: clamp(17px, 1.55vw, 20px);
-  line-height: 1.35;
+  font-size: clamp(17px, 1.55vw, 18px);
+  line-height: 1.4;
   font-weight: 300;
   letter-spacing: -0.02em;
   margin-bottom: 20px;
