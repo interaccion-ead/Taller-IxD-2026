@@ -4,21 +4,21 @@ const categories = [
       projects: [
         {
           student: "Mateo Mackay",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-1/"
+          image: "assets/img/mateo.png",
+          gif: "assets/gif/mateo.gif",
+          url: "https://mmackay7exe.github.io/PolkUp---Mateo-Mackay-O/"
         },
         {
           student: "Antonia Pino",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-2/"
+          image: "assets/img/antonia-pino.png",
+          gif: "assets/gif/antonia-pino.gif",
+          url: "https://antoniapinosalinas.github.io/PolkUp.sitioweb.ap/"
         },
         {
           student: "Sofía Rojas",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-3/"
+          image: "assets/img/sofia-rojas.png",
+          gif: "assets/gif/sofia-rojas.gif",
+          url: "https://sofiarojasm01-creator.github.io/Repositorio-ciclo-3-Polkup-srm/"
         }
       ]
     },
@@ -27,9 +27,9 @@ const categories = [
       projects: [
         {
           student: "Fernanda Cortés",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
-          url: "https://usuario.github.io/proyecto-4/"
+          image: "assets/img/fernanda-cortes.png",
+          gif: "assets/gif/fernanda-cortes.gif",
+          url: "https://cortesfernanda.github.io/Cuadriculando FernandaCortes/"
         },
         {
           student: "Catalina González",
