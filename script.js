@@ -96,14 +96,14 @@ const categories = [
       projects: [
         {
           student: "Fernanda Moya",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
+          image: "assets/img/fernanda-moya.png",
+          gif: "assets/gif/fernanda-moya.gif",
           url: "https://fernanda-mlep.github.io/U3_Fernanda-Moya/"
         },
         {
           student: "Julieta Ungerer",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
+          image: "assets/img/julieta.png",
+          gif: "assets/gif/julieta.gif",
           url: "https://julietaungererr.github.io/catapultazo-u3/"
         }
       ]
@@ -113,20 +113,20 @@ const categories = [
       projects: [
         {
           student: "Pedro Beltrán",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
+          image: "assets/img/pedro.png",
+          gif: "assets/gif/pedro.gif",
           url: "https://pedropablob.github.io/ZONA-INESTABLE-PEDRO-BELTRAN/"
         },
         {
           student: "Vicente Bravo",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
+          image: "assets/img/vicente.png",
+          gif: "assets/gif/vicente.gif",
           url: "https://vbravo404.github.io/U3_zonainestable_vicentebravo/"
         },
         {
           student: "Catalina Cabezas",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
+          image: "assets/img/catalina-cabezas.png",
+          gif: "assets/gif/catalina-cabezas.gif",
           url: "https://kvtari.github.io/Zona-inestable---Catalina-Cabezas/"
         }
       ]
@@ -136,20 +136,20 @@ const categories = [
       projects: [
         {
           student: "Fernanda Costa",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
+          image: "assets/img/fernanda-costa.png",
+          gif: "assets/gif/fernanda-costa.gif",
           url: "https://fernandacostac.github.io/Repositorio-Enlace-Fatal---Fernanda-Costa-C/"
         },
         {
           student: "Constanza Cruz",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
+          image: "assets/img/constanza.png",
+          gif: "assets/gif/constanza.gif",
           url: "https://cony16clark.github.io/entrega-u3-constanza/"
         },
         {
           student: "Antonio Diaz",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
+          image: "assets/img/antonio.png",
+          gif: "assets/gif/antonio.gif",
           url: "https://antoniodiazgodoy.github.io/U3-AntonioDiaz/"
         }
       ]
@@ -159,14 +159,14 @@ const categories = [
       projects: [
         {
           student: "Fabián Flores",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
+          image: "assets/img/fabian.png",
+          gif: "assets/gif/fabian.gif",
           url: "https://fabianfloreses.github.io/Enrutate-U3-TiX---Fabian-Flores/"
         },
         {
           student: "Antonia Gonzalez",
-          image: "assets/img/placeholder.jpg",
-          gif: "assets/gif/placeholder.gif",
+          image: "assets/img/antonia-gonzalez.png",
+          gif: "assets/gif/antonia-gonzalez.gif",
           url: "https://cirelli20.github.io/U3.Enrutate.A.G/#overlay"
         }
       ]
@@ -207,8 +207,14 @@ const categories = [
   
       card.innerHTML = `
         <div class="project-media">
-          <img class="static-image" src="${project.image}" alt="${project.student}" loading="lazy">
-          <img class="gif-image" src="${project.gif}" alt="" aria-hidden="true" loading="lazy">
+        <img class="static-image" src="${project.image}" alt="${project.student}" loading="lazy">
+
+        <img
+            class="gif-image"
+            data-src="${project.gif}"
+            alt=""
+            aria-hidden="true">
+
           <span class="project-arrow">↗</span>
         </div>
   
@@ -221,6 +227,8 @@ const categories = [
   
       container.appendChild(card);
     });
+
+    lazyLoadGifs();
   }
   
   function renderList() {
@@ -299,3 +307,36 @@ const categories = [
   });
   
   renderGrid();
+
+
+  function lazyLoadGifs() {
+
+    const gifs = document.querySelectorAll(".gif-image[data-src]");
+
+    const observer = new IntersectionObserver((entries, obs) => {
+
+        entries.forEach(entry => {
+
+            if (entry.isIntersecting) {
+
+                const gif = entry.target;
+
+                gif.src = gif.dataset.src;
+
+                gif.removeAttribute("data-src");
+
+                obs.unobserve(gif);
+
+            }
+
+        });
+
+    }, {
+
+        rootMargin: "300px"
+
+    });
+
+    gifs.forEach(gif => observer.observe(gif));
+
+}
